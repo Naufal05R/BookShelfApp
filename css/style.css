@@ -12,14 +12,14 @@ html, body {
 }
 
 header {
-    background: #5F30E2;
+    background: #3b82f6;
     padding: 16px;
     color: white;
     text-align: center;
 }
 
 footer {
-    background: #5F30E2;
+    background: #3b82f6;
     padding: 8px;
     color: white;
     text-align: center;
@@ -43,7 +43,7 @@ footer {
 }
 
 .container-header {
-    color: #5F30E2;
+    color: #3b82f6;
 }
 
 .container-header.display {
@@ -61,7 +61,7 @@ footer {
 }
 
 .item > .inner h2 {
-    color: #5F30E2;
+    color: #3b82f6;
     margin-bottom: unset;
 }
 
@@ -82,7 +82,7 @@ footer {
 }
 
 .form-group label {
-    color: #5F30E2;
+    color: #3b82f6;
     margin-bottom: 4px;
     padding-inline: 8px;
     font-size: 18px;
@@ -95,14 +95,14 @@ footer {
 
 input[type=text], input[type=number], input[type=search] {
     font-family: 'Inter', sans-serif;
-    background: #F5F1FF;
-    border: 2px solid #9475EA;
+    background: #f0f9ff;
+    border: 2px solid #3b82f6;
     border-radius: 8px;
     padding: 16px;
     box-sizing: border-box;
     margin-bottom: 8px;
     font-size: 24px;
-    color: #5F30E2;
+    color: #3b82f6;
 }
 
 .btn-submit {
@@ -111,14 +111,14 @@ input[type=text], input[type=number], input[type=search] {
     font-family: 'Inter', sans-serif;
     border-radius: 8px;
     padding: 12px 24px;
-    border: 2px solid #5F30E2;
+    border: 2px solid #3b82f6;
     margin-top: auto;
     align-self: flex-end;
     cursor: pointer;
 }
 
 .btn-submit:hover {
-    background: #5F30E2;
+    background: #3b82f6;
     color: white;
 }
 
@@ -146,7 +146,7 @@ input[type=text], input[type=number], .btn-submit:focus {
 
 .form-check, .btn-submit {
     font-size: 16px;
-    color: #5F30E2; 
+    color: #3b82f6; 
 }
 
 .check-button {
