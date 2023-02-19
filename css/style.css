@@ -18,6 +18,14 @@ header {
     text-align: center;
 }
 
+footer {
+    background: #5F30E2;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
