@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Apps</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+<header>
+  <h1>Online BookShelf Display</h1>
+</header>
+
+<div class="wrapper">
+  <div class="container bg-white shadow" id="add-todo">
+    <h2 class="container-header text-center">Masukkan Buku ke Display</h2>
+    <form class="form" action="#" id="form">
+      
+      <div class="form-group form-title">
+        <label for="title">Judul Buku</label>
+        <input type="text" id="title" name="title" required>
+      </div>
+      
+      <div class="form-group form-title">
+        <label for="author">Penulis Buku</label>
+        <input type="text" id="author" name="author" required>
+      </div>
+
+      <div class="form-group form-title">
+        <label for="year">Tahun Terbit</label>
+        <input type="number" id="year" name="year" required>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" id="read">
+        <label for="check">Telah dibaca</label>
+      </div>
+
+      <input type="submit" value="Tambah Buku" name="Submit" class="btn-submit">
+      
+    </form>
+  </div>
+
+  <div class="container">
+    <h2 class="container-header display">Buku belum dibaca</h2>
+    
+    <div class="list-item" id="books">
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="container-header display">Buku telah dibaca</h2>
+    <div class="list-item" id="completed-books">
+    </div>
+  </div>
+
+</div>
+
+</body>
+<script src="js/script.js" type="text/javascript"></script>
+</html>
