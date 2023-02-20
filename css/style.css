@@ -65,6 +65,11 @@ footer {
     margin-bottom: unset;
 }
 
+.item > .inner h3 {
+    color: #3b82f6;
+    font-weight: inherit;
+}
+
 .item > .inner p {
     margin-top: 5px;
 }

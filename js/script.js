@@ -78,7 +78,7 @@ function displayBook(bookObject) {
   const booksTitle = document.createElement('h2');
   booksTitle.innerText = bookObject.title;
 
-  const booksAuthor = document.createElement('h2');
+  const booksAuthor = document.createElement('h3');
   booksAuthor.innerText = bookObject.author;
 
   const publicationYear = document.createElement('p');
@@ -117,7 +117,14 @@ function displayBook(bookObject) {
       addBookToRead(bookObject.id);
     });
 
-    container.append(checkButton);
+    const trashButton = document.createElement('button');
+    trashButton.classList.add('trash-button');
+
+    trashButton.addEventListener('click', () => {
+      removeBookFromRead(bookObject.id);
+    });
+
+    container.append(checkButton, trashButton);
   }
 
   
